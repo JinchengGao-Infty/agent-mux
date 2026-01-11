@@ -1,0 +1,37 @@
+{
+  "name": "agent-mux",
+  "version": "0.1.0",
+  "description": "A tmux-backed agent pool with MCP server for orchestrating interactive CLI agents",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./server": "./server/index.mjs"
+  },
+  "bin": {
+    "agent-mux-server": "./server/index.mjs"
+  },
+  "scripts": {
+    "server": "node server/index.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "agent",
+    "tmux",
+    "cli",
+    "orchestration",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaojincheng/agent-mux.git"
+  }
+}
