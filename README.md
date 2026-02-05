@@ -1,3 +1,6 @@
+**I have a new version which name is Hydra,more powerful,see detail in [https://github.com/JinchengGao-Infty/Hydra?tab=readme-ov-file](https://github.com/JinchengGao-Infty/Hydra?tab=readme-ov-file)**
+
+
 # Agent Mux
 
 Agent Mux is a **tmux-backed agent pool** plus a small **MCP (Model Context Protocol) server**.
